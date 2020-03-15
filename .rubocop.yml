@@ -1,0 +1,6 @@
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'Gemfile'
+
+Layout/LineLength:
+  Max: 100
