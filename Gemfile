@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 ruby '2.7.0'
 
+gem 'dry-types'
 gem 'hanami-api'
 gem 'puma'
 gem 'rake'
@@ -11,6 +12,7 @@ gem 'sidekiq'
 
 group :development do
   gem 'rubocop', require: false
+  gem 'shotgun'
 end
 
 group :test do
