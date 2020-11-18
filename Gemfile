@@ -11,6 +11,8 @@ gem 'sidekiq'
 gem 'zeitwerk'
 
 group :development do
+  gem 'byebug'
+  gem 'pry'
   gem 'rubocop', require: false
 end
 
@@ -18,5 +20,6 @@ group :test do
   gem 'fakeredis'
   gem 'rack-test'
   gem 'rspec'
+  gem 'timecop'
   gem 'webmock'
 end

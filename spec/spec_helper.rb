@@ -5,6 +5,7 @@ require 'fakeredis/rspec'
 require 'sidekiq/testing'
 
 require_relative '../config/environment'
+
 # Hanami::Utils.require!("#{__dir__}/support")
 Sidekiq::Testing.fake!
 
