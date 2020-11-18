@@ -8,6 +8,7 @@ gem 'hanami-api'
 gem 'puma'
 gem 'rake'
 gem 'sidekiq'
+gem 'zeitwerk'
 
 group :development do
   gem 'rubocop', require: false
